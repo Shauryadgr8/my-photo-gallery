@@ -1,0 +1,82 @@
+<html>
+
+<head>
+    <title>My Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <ul class="menu">
+        <section id="links_sec">
+            <li class="links"><a>Home</a></li>
+            <li class="links"><a>Grid Gallery</a></li>
+            <li class="links"><a href="#slider">Silde Gallery</a></li>
+        </section>
+    </ul>
+    <section id="home">
+        <img id="home_img" src="home_flower.jfif">
+    </section>
+    <section id="grids">
+
+        <img class="grid_img" src="flower_a.jfif">
+        <span class="spans"></span>
+        <img class="grid_img" src="flower_b.jfif">
+
+        <div class="divs">
+            <img class="grid_img" src="flower_c.jfif">
+            <span class="spans"></span>
+            <img class="grid_img" src="flower_d.jfif">
+        </div>
+    </section>
+    <section id="slider">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <img class="slide_img" src="flower_a.jfif">
+                        <div class="carousel-content">
+                            <p>Pink Flower</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <img class="slide_img" src="flower_b.jfif">
+                        <div class="carousel-content">
+                            <p>Red Flower</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <img class="slide_img" src="flower_c.jfif">
+                        <div class="carousel-content">
+                            <p>Blue Flower</p>
+                        </div>
+                    </center>
+                </div>
+                 <div class="item">
+                    <center>
+                        <img class="slide_img" src="flower_d.jfif">
+                        <div class="carousel-content">
+                            <p>Purple Flower</p>
+                        </div>
+                    </center>
+            </div>
+            </div>
+               <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+    </section>
+</body>
+
+</html>
